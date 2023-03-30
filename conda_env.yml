@@ -15,5 +15,6 @@ dependencies:
   - imbalanced-learn
   - optuna
   - ipykernel
+  - streamlit
   - snowflake-snowpark-python[pandas]==1.0.0
 
