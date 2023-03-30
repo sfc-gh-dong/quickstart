@@ -1,8 +1,8 @@
 snowflake_conn_prop = {
-   "account": "ws90724.ap-southeast-1",
+   "account": "<account>.<region>",
    "user": "admin",
    "role": "ACCOUNTADMIN",
-   "database": "AIRLINE",
-   "schema": "PUBLIC",
-   "warehouse": "DATA_SCIENCE_AIRLINE_WH",
+   "database": "xxx",
+   "schema": "xxx",
+   "warehouse": "COMPUTE_WH",
 }
