@@ -1,8 +1,9 @@
 FROM jupyter/minimal-notebook:latest
 
 WORKDIR /home/jovyan/snowpark
-COPY conda_env.yml .
-COPY config.py .
+COPY --chmod=777 conda_env.yml .
+COPY --chmod=777 config.py .
+COPY --chmod=777 Snowpark.ipynb .
 
 USER root
 RUN apt-get -y install openssl
