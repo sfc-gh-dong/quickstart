@@ -1,0 +1,19 @@
+name: snowpark
+channels:
+  - https://repo.anaconda.com/pkgs/snowflake
+dependencies:
+  - python=3.8
+  - scikit-learn
+  - numpy
+  - matplotlib
+  - seaborn
+  - lightgbm
+  - xgboost
+  - scipy
+  - cachetools
+  - cloudpickle
+  - imbalanced-learn
+  - optuna
+  - ipykernel
+  - snowflake-snowpark-python[pandas]==1.0.0
+
