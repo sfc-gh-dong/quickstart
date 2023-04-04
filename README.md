@@ -15,6 +15,7 @@ Detailed steps here :
 3. git clone https://github.com/sfc-gh-dong/quickstart.git
 4. docker build -t snowpark-notebook:latest ./
 5. docker run -it -p 10000:8888 -e GRANT_SUDO=yes --user root snowpark-notebook:latest
-6. Modify config.py (you should see this after you open Jupyter notebook)
+6. Go to localhost:10000 to open the Jupyter notebook
+6. Modify config.py
 7. ALTER USER <your_user> SET RSA_PUBLIC_KEY='MIIBIjANBgkqhki…' (run this in Snowflake)
 
